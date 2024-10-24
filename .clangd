@@ -1,0 +1,12 @@
+CompileFlags:
+  Compiler: clang
+  Add:
+    - -Wall
+    - -I/usr/src/kernels/6.10.7-200.fc40.x86_64/include
+InlayHints:
+  BlockEnd: false
+  Designators: true
+  Enabled: true
+  ParameterNames: true
+  DeducedTypes: true
+  TypeNameLimit: 24
